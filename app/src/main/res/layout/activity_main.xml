@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#303F9F"
+        android:padding="5dp"
+        android:text="Nom etablissement : xxxxx"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#303F9F"
+        android:padding="5dp"
+        android:text="Adresse etablissement : xxxxx"
+        android:textColor="#fff"
+        android:id="@+id/txt1"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#303F9F"
+        android:padding="5dp"
+        android:text="Tel etablissement : xxxxx"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#E64A19"
+        android:padding="2dp"
+        android:text="Liste des filieres : "
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lst"/>
+
+
+
+</LinearLayout>
